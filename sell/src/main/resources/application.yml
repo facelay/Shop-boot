@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.99.184/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  context-path: /sell
+
+#微信配置
+wechat:
+  mpAppId: wxe988a82bf84a1bc7
+  mpAppSecret: bb8d23cde8f1d8d7833916f1c9afaf90
+  mchId: 14464238778
+  mchKey: fjsijg8u248g88g
+  keyPath: /var/pfjsl.pck
+  notiryUrl: http://facelay.nat100.top/sell/pay/notify
