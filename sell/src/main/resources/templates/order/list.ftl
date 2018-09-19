@@ -5,10 +5,8 @@
     <body>
 
     <div id="wrapper" class="toggled">
-
             <#--边栏sidebar-->
             <#include "../common/nav.ftl"/>
-
             <#--主要内容-->
             <div id="page-content-wrapper">
                 <div class="container-fluid">
@@ -81,10 +79,6 @@
                     </ul>
                 </div> -->
                 </div>
-
-
-
-
             </div>
             </div>
 
